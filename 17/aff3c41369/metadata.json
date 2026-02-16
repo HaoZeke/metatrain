@@ -5,17 +5,14 @@
   "branch": "petPartialCompile",
   "checkpoints_count": 2,
   "files_touched": [
-    ".claude/settings.json",
-    ".claude/settings.local.json",
+    "docs/src/dev-docs/changelog.rst",
     "src/metatrain/pet/documentation.py",
     "src/metatrain/pet/model.py",
     "src/metatrain/pet/modules/compile.py",
     "src/metatrain/pet/modules/structures.py",
-    "src/metatrain/pet/tests/checkpoints/model-v11_trainer-v13.ckpt.gz",
+    "src/metatrain/pet/modules/utilities.py",
     "src/metatrain/pet/tests/test_compile.py",
-    "src/metatrain/pet/trainer.py",
-    "tests/resources/.data_version.txt",
-    "uv.lock"
+    "src/metatrain/pet/trainer.py"
   ],
   "sessions": [
     {
@@ -34,10 +31,10 @@
     }
   ],
   "token_usage": {
-    "input_tokens": 5364,
-    "cache_creation_tokens": 411921,
-    "cache_read_tokens": 17947156,
-    "output_tokens": 73552,
-    "api_call_count": 175
+    "input_tokens": 5423,
+    "cache_creation_tokens": 488946,
+    "cache_read_tokens": 21286132,
+    "output_tokens": 79330,
+    "api_call_count": 218
   }
 }
