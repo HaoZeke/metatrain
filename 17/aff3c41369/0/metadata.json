@@ -1,0 +1,31 @@
+{
+  "cli_version": "0.4.4",
+  "checkpoint_id": "17aff3c41369",
+  "session_id": "6c00f870-5aaa-411e-a017-e14fd8149333",
+  "strategy": "manual-commit",
+  "created_at": "2026-02-16T20:02:53.370834147Z",
+  "branch": "petPartialCompile",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "src/metatrain/pet/trainer.py"
+  ],
+  "agent": "Claude Code",
+  "transcript_identifier_at_start": "05a53b17-9727-475a-be49-1224bdbce3cd",
+  "token_usage": {
+    "input_tokens": 5232,
+    "cache_creation_tokens": 137579,
+    "cache_read_tokens": 4529407,
+    "output_tokens": 40154,
+    "api_call_count": 53
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-02-16T20:02:51.442042707Z",
+    "agent_lines": 0,
+    "human_added": 2720,
+    "human_modified": 256,
+    "human_removed": 0,
+    "total_committed": 2926,
+    "agent_percentage": 0
+  },
+  "transcript_path": ".claude/projects/-home-rgoswami-Git-Github-epfl-pixi-envs-orgs-metatensor-metatrain-metatrain/6c00f870-5aaa-411e-a017-e14fd8149333.jsonl"
+}
