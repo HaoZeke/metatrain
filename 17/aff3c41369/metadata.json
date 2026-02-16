@@ -3,9 +3,19 @@
   "checkpoint_id": "17aff3c41369",
   "strategy": "manual-commit",
   "branch": "petPartialCompile",
-  "checkpoints_count": 1,
+  "checkpoints_count": 2,
   "files_touched": [
-    "src/metatrain/pet/trainer.py"
+    ".claude/settings.json",
+    ".claude/settings.local.json",
+    "src/metatrain/pet/documentation.py",
+    "src/metatrain/pet/model.py",
+    "src/metatrain/pet/modules/compile.py",
+    "src/metatrain/pet/modules/structures.py",
+    "src/metatrain/pet/tests/checkpoints/model-v11_trainer-v13.ckpt.gz",
+    "src/metatrain/pet/tests/test_compile.py",
+    "src/metatrain/pet/trainer.py",
+    "tests/resources/.data_version.txt",
+    "uv.lock"
   ],
   "sessions": [
     {
@@ -14,13 +24,20 @@
       "context": "/17/aff3c41369/0/context.md",
       "content_hash": "/17/aff3c41369/0/content_hash.txt",
       "prompt": "/17/aff3c41369/0/prompt.txt"
+    },
+    {
+      "metadata": "/17/aff3c41369/1/metadata.json",
+      "transcript": "/17/aff3c41369/1/full.jsonl",
+      "context": "/17/aff3c41369/1/context.md",
+      "content_hash": "/17/aff3c41369/1/content_hash.txt",
+      "prompt": "/17/aff3c41369/1/prompt.txt"
     }
   ],
   "token_usage": {
-    "input_tokens": 5232,
-    "cache_creation_tokens": 137579,
-    "cache_read_tokens": 4529407,
-    "output_tokens": 40154,
-    "api_call_count": 53
+    "input_tokens": 5364,
+    "cache_creation_tokens": 411921,
+    "cache_read_tokens": 17947156,
+    "output_tokens": 73552,
+    "api_call_count": 175
   }
 }
